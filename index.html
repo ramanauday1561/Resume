@@ -1,1 +1,205 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+
+</head>
+<body>
+  <nav id="main_nav">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">RESUME</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="color:#0EB57D;">menu</i></a>
+      <ul class="right hide-on-med-and-down main_ul">
+        <li><a onclick="$('html').animatescroll()">HOME</a></li>
+        <li><a onclick="$('#skill-section').animatescroll();">SKILLS</a></li>
+        <li><a href="collapsible.html">PROJECTS</a></li>
+        <li><a href="mobile.html">EDUCATION</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="site-header">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 m6 s12">
+          <div class="site-header-title">
+            A.D.V.RAMANA
+            <span>Software Engineer</span>
+          </div>
+        </div>
+        <div class="col l6 m6 s12">
+          <div class="site-header-contact">
+              <a class="btn btn-floating waves-effect waves-light" href="#0"><span class="fa fa-facebook"></span></a>
+              <a class="btn btn-floating waves-effect waves-light" href="#0"><span class="fa fa-twitter"></span></a>
+              <a class="btn btn-floating waves-effect waves-light" href="#0"><span class="fa fa-google-plus"></span></a>
+              <a class="btn btn-floating waves-effect waves-light" href="#0"><span class="fa fa-linkedin"></span></a>
+              <a class="btn btn-floating waves-effect waves-light" href="#0"><span class="fa fa-github"></span></a>
+              <a class="btn btn-floating waves-effect waves-light" href="#0"><span class="fa fa-skype"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="overview-section">
+    <div class="section-content">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 about-section z-depth-1 pd-0 animated fadeInUp zoomIt">
+            <div class="col l5 m6 s12 about-img" data-img-bg="">
+            </div>
+            <div class="col l7 m6 s12 about-data pd-0">
+              <div class="about-desc">
+                <div class="arrow-box">
+                  Hello & Welcome
+                </div>
+                <div class="overview-name">
+                  I'm <span>Ramana</span>
+                </div>
+                <div class="overview-title">
+                  Front-end Web Developer
+                </div>
+                <div class="overview-data">
+                  <div>
+                    <span>Education</span> Integrated M.Sc on Mathematics and Computing
+                  </div>
+                  <div>
+                    <span>Address</span> Currently at Hyderabad
+                  </div>
+                  <div>
+                    <span>Email</span> ramanauday1561@gmail.com
+                  </div>
+                  <div>
+                    <span>Phone</span> +91-9491166489
+                  </div>
+                </div>
+              </div>
+              <div class="about-social col s12">
+                <a class="waves-effect waves-light col s2 pd-0" href="#0"><span class="fa fa-facebook"></span></a>
+                <a class="waves-effect waves-light col s2 pd-0" href="#0"><span class="fa fa-twitter"></span></a>
+                <a class="waves-effect waves-light col s2 pd-0" href="#0"><span class="fa fa-google-plus"></span></a>
+                <a class="waves-effect waves-light col s2 pd-0" href="#0"><span class="fa fa-linkedin"></span></a>
+                <a class="waves-effect waves-light col s2 pd-0" href="#0"><span class="fa fa-github"></span></a>
+                <a class="waves-effect waves-light col s2 pd-0" href="#0"><span class="fa fa-skype"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skill-section" class="skill-section">
+			<div class="container">
+				<div class="row">
+					<div class="skill-title">
+						Skills
+					</div>
+					<div class="col s12 skill-content z-depth-3 zoomIt">
+						<div class="col l6 m6 s12 skill-desc">
+              <h4 class="h4_lan">L<span>ANGUAGES</span></h4>
+              <div class="container list-type">
+                <ul>
+                  <li><a>HTML and CSS</a></li>
+                  <li><a>Javascript</a></li>
+                  <li><a>jQuery</a></li>
+                  <li><a>Bootstrap</a></li>
+                  <li><a>AngularJS</a></li>
+                  <li><a>Angular 2</a></li>
+                </ul>
+              </div>
+							<!-- <p>
+								Delivered engaging and visually compelling web designs with user-friendly UI that are cross-browser compatible and mobile responsive.
+                Strong understanding of industry trends and content management systems. Skilled in multitasking and working on several projects simultaneously.
+							</p>
+							<br/>
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+								Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p> -->
+						</div>
+						<div class="col l6 m6 s12 skill-data">
+              <ul class="collapsible popout" data-collapsible="accordion">
+                <li>
+                  <div class="collapsible-header h_first">Javascript</div>
+                  <div class="collapsible-body">
+                    <span>
+                      <div class="progress">
+                        <div class="determinate some1"></div>
+                      </div>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div class="collapsible-header h_second">AngularJS</div>
+                  <div class="collapsible-body"><span>
+                    <div class="progress">
+                      <div class="determinate some2"></div>
+                    </div>
+                  </span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header h_third">Angular2</div>
+                  <div class="collapsible-body"><span>
+                    <div class="progress">
+                      <div class="determinate some3"></div>
+                    </div>
+                  </span></div>
+                </li>
+              </ul>
+
+
+							<!-- <div class="progress-bar-wrapper">
+								<p class="progress-text">Front-End Development
+									<span>90%</span>
+								</p>
+                <div class="progress">
+                  <div class="determinate" style="width: 90%"></div>
+                </div>
+							</div>
+							<div class="progress-bar-wrapper">
+								<p class="progress-text">Back-End Development
+									<span>85%</span>
+								</p>
+                <div class="progress">
+                  <div class="determinate" style="width: 85%"></div>
+                </div>
+							</div>
+							<div class="progress-bar-wrapper">
+								<p class="progress-text">Mobile App Development
+									<span>75%</span>
+								</p>
+                <div class="progress">
+                  <div class="determinate" style="width: 75%"></div>
+                </div>
+							</div>
+							<div class="progress-bar-wrapper">
+								<p class="progress-text">Desktop Development
+									<span>80%</span>
+								</p>
+                <div class="progress">
+                  <div class="determinate" style="width: 80%"></div>
+                </div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <script  src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="animatescroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script src="all-styling.js"></script>
+</body>
+</html>
