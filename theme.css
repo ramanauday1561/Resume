@@ -1,0 +1,340 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: 1;
+  color: #555555;
+  background-color: #e6e6e6;
+  font-family: 'Roboto', 'Sans Serif' !important;
+}
+p {
+  font-family: 'Roboto', 'Sans Serif' !important;
+  font-size: 15px;
+  line-height: 24px;
+  color: #888888;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+#main_nav {
+    background-color: white !important;
+    position: fixed;
+    z-index: 2;
+    visibility: hidden;
+    padding: 0 50px;
+}
+#main_nav .brand-logo  {
+  color: #0EB57D !important;
+}
+#main_nav ul a {
+  color: #666666 !important;
+}
+.brand-logo {
+  line-height: 60px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header ul li {
+  float: right;
+}
+header ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.site-header {
+  height: 400px;
+  padding-top: 60px;
+  background-color: #0EB57D;
+}
+.site-header-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.site-header-title span {
+  display: block;
+  font-size: 20px;
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.site-header-contact {
+  text-align: right;
+  margin-top: 12px;
+}
+.site-header-contact a {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.arrow-box {
+  background-color: #0EB57D;
+  display: inline-block;
+  padding: 7px 15px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 14px;
+  position: relative;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.about-desc {
+  background-color: #ffffff;
+  padding: 30px !important;
+}
+.overview-name {
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.overview-name span {
+  color: #0EB57D;
+}
+.overview-title {
+  font-size: 18px;
+  padding: 10px 0 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.overview-data > div {
+  margin-top: 15px;
+}
+.overview-data > div > span {
+  width: 80px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+}
+.about-section {
+  position: relative;
+  margin-top: -185px;
+}
+.about-desc {
+  padding: 30px !important;
+}
+.about-social {
+  background-color: #0EB57D;
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0 !important;
+}
+.about-social a {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+}
+.about-social a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+.pd-0 {
+  padding: 0 !important;
+}
+.skill-title {
+  color: #0EB57D;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 80px 0 50px;
+}
+.skill-content {
+  padding: 50px !important;
+}
+.skill-desc {
+  padding-left: 0 !important;
+}
+.skill-data {
+  padding-right: 0 !important;
+}
+.progress-text span {
+  float: right;
+  text-align: right;
+}
+.skill-content {
+  padding: 50px !important;
+  background-color: #ffffff;
+}
+/*fadeInUp Transform CSS*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+/*fadeInDown Transform CSS*/
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+#sidenav-overlay {
+  opacity: 0 !important;
+}
+.main_ul li a{
+  color: #666666;
+  padding: 0 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@keyframes progressBar1 {
+  from {width:0%;}
+  to {width:90%;}
+}
+.clicked1 {
+  animation-name: progressBar1;
+  animation-duration: 4s;
+  width: 90%;
+}
+
+@keyframes progressBar2 {
+  from {width:0%;}
+  to {width:80%;}
+}
+.clicked2 {
+  animation-name: progressBar2;
+  animation-duration: 4s;
+  width: 80%;
+}
+
+@keyframes progressBar3 {
+  from {width:0%;}
+  to {width:70%;}
+}
+.clicked3 {
+  animation-name: progressBar3;
+  animation-duration: 4s;
+  width: 70%;
+}
+
+/*Styling the Languages I know*/
+.list-type ul li a:hover {
+    -moz-transform: rotate(-5deg);
+    -moz-box-shadow: 10px 10px 20px #000000;
+    -webkit-transform: rotate(-5deg);
+    -webkit-box-shadow: 10px 10px 20px #000000;
+    transform: rotate(-5deg);
+    box-shadow: 10px 10px 20px #000000;
+}
+.list-type ul li a {
+    display: block;
+    font-size: 17px;
+    border-radius: 6px;
+    width: 390px;
+    margin-left: -40px;
+    height: 30px;
+    background-color: #0EB57D;
+    border-left: 5px solid #222;
+    padding-left: 40px;
+    padding-top: 7px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 7px;
+    transition: all .2s ease-in-out;
+}
+.list-type ul {
+    list-style: none;
+    list-style-position: inside;
+}
+
+.skill-desc H4 {
+  text-align: center;
+  color: #666666;
+}
+.collapsible-header {
+  font-size: 17px;
+  font-weight: 500;
+  color: #666666;
+}
+.h4_lan {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.h4_lan span {
+  font-size: 1.5rem;
+}
+.project_title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 80px 0 50px;
+  color: #0EB57D;
+}
+.project-content {
+  padding: 0 !important;
+}
+
+/*.row {
+  overflow: hidden;
+}
+#grid-header-1 {
+  float: left;
+}
+#grid-header-2 {
+  overflow: hidden;
+}
+@media only screen and (min-width: 992px) {
+  .grid-site-header  {
+    width: 50%;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .grid-site-header {
+    width: 50%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grid-site-header {
+    width: 100%;
+    margin-left: 0;
+  }
+}*/
