@@ -236,12 +236,12 @@ header ul li a {
 
 @keyframes progressBar0 {
   from {width:0%;}
-  to {width:50%;}
+  to {width:60%;}
 }
 .clicked0 {
   animation-name: progressBar0;
   animation-duration: 4s;
-  width: 50%;
+  width: 60%;
 }
 
 @keyframes progressBar1 {
@@ -256,32 +256,32 @@ header ul li a {
 
 @keyframes progressBar2 {
   from {width:0%;}
-  to {width:80%;}
+  to {width:70%;}
 }
 .clicked2 {
   animation-name: progressBar2;
   animation-duration: 4s;
-  width: 80%;
+  width: 70%;
 }
 
 @keyframes progressBar3 {
   from {width:0%;}
-  to {width:70%;}
+  to {width:80%;}
 }
 .clicked3 {
   animation-name: progressBar3;
   animation-duration: 4s;
-  width: 70%;
+  width: 80%;
 }
 
 @keyframes progressBar4 {
   from {width:0%;}
-  to {width:60%;}
+  to {width:50%;}
 }
 .clicked4 {
   animation-name: progressBar4;
   animation-duration: 4s;
-  width: 60%;
+  width: 50%;
 }
 
 /*Styling the Languages I know*/
